@@ -20,8 +20,8 @@ otu <- read.delim(inp.abundances.path, row.names=1)
 suppressWarnings(library(ALDEx2))
 
 # analysis ----------------------------------------------------------------
-
 fit <- aldex(t(otu), as.character(map[[condition]]),
 	     denom=denom, test=test, mc.samples=mc.samples)
+
 sfit <- as.data.frame(fit)
 write.csv(sfit, file=output)

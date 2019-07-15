@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+q2_aldex2/__init__.py
+q2_aldex2/_method.py
+q2_aldex2/_version.py
+q2_aldex2/citations.bib
+q2_aldex2/plugin_setup.py
+q2_aldex2.egg-info/PKG-INFO
+q2_aldex2.egg-info/SOURCES.txt
+q2_aldex2.egg-info/dependency_links.txt
+q2_aldex2.egg-info/entry_points.txt
+q2_aldex2.egg-info/not-zip-safe
+q2_aldex2.egg-info/top_level.txt
+q2_aldex2/assets/run_aldex2.R
